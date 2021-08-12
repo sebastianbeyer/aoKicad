@@ -1,6 +1,6 @@
 # Analog Output KiCad Libraries
 
-Symbol and footprint libraries I use all the time:
+KiCad symbol and footprint libraries I use all the time:
 
 ## ao_symbols.lib
 
