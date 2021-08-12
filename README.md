@@ -23,4 +23,4 @@ Footprints include many common THT packages with revised silkscreen (both refere
 * Hand soldering SOT-23 (yes, I know the library says THT)
 * Some terminal blocks I use
 
-Many of these symbols and footprints are based on versions from the KiCad distribution. Some are based on ones collected from other sources — I haven't kept good track of where they came from.
+Many of these symbols and footprints are based on versions from the KiCad distribution. Some are based on ones collected from other sources — I haven't kept good track of where they came from. If any are covered by licenses not compatible with CC0 please let me know.
