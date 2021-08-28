@@ -1,3 +1,81 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N4148
+D Standard switching diode, DO-35
+$ENDCMP
+#
+$CMP 1N5817
+D Schottky Barrier Rectifier Diode, DO-41
+$ENDCMP
+#
+$CMP 2N3904
+D Small Signal NPN Transistor, TO-92
+$ENDCMP
+#
+$CMP 2_pin_Molex_connector
+D KK254 Molex connector
+$ENDCMP
+#
+$CMP 2_pin_Molex_header
+D KK254 Molex header
+$ENDCMP
+#
+$CMP 3_pin_Molex_connector
+D KK254 Molex connector
+$ENDCMP
+#
+$CMP 3_pin_Molex_header
+D KK254 Molex header
+$ENDCMP
+#
+$CMP AudioJack2
+D Audio Jack, 2 Poles (Mono / TS)
+K audio jack receptacle mono phone headphone TS connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack2_SwitchT
+D Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)
+K audio jack receptacle mono headphones phone TS connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack3
+D Audio Jack, 3 Poles (Stereo / TRS)
+K audio jack receptacle stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
+$CMP LM13700
+D Dual OTA, DIP-16
+$ENDCMP
+#
+$CMP OLED_128X64
+D 128 x 64 OLED module, I2C
+$ENDCMP
+#
+$CMP R_SLIDE_POT
+D 60 mm slide potentiometer
+$ENDCMP
+#
+$CMP Synth_power_2x5
+D Pin header 2.54 mm 2x5
+$ENDCMP
+#
+$CMP Synth_power_2x5_passive
+D Pin header 2.54 mm 2x5
+$ENDCMP
+#
+$CMP TL071
+D Operational amplifier, DIP-8
+$ENDCMP
+#
+$CMP TL072
+D Dual operational amplifier, DIP-8
+$ENDCMP
+#
+$CMP TL074
+D Quad operational amplifier, DIP-14
+$ENDCMP
+#
 #End Doc Library
