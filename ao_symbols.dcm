@@ -46,6 +46,14 @@ K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
+$CMP C
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP CP
+D Polarized capacitor
+$ENDCMP
+#
 $CMP LM13700
 D Dual OTA, DIP-16
 $ENDCMP
@@ -54,8 +62,20 @@ $CMP OLED_128X64
 D 128 x 64 OLED module, I2C
 $ENDCMP
 #
+$CMP R_POT
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP R_SLIDE_POT
 D 60 mm slide potentiometer
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
 $ENDCMP
 #
 $CMP Synth_power_2x5
