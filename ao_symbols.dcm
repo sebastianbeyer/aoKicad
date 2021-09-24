@@ -4,6 +4,18 @@ $CMP 1N4148
 D Standard switching diode, DO-35
 $ENDCMP
 #
+$CMP 1N4733A
+D 5.1 V 1300mW Zener Diode, DO-41
+K zener diode
+F http://www.vishay.com/docs/85790/zpy3v9.pdf
+$ENDCMP
+#
+$CMP 1N47xxA
+D 1300mW Silicon planar power Zener diodes, DO-41
+K zener diode
+F https://www.vishay.com/docs/85816/1n4728a.pdf
+$ENDCMP
+#
 $CMP 1N5817
 D Schottky Barrier Rectifier Diode, DO-41
 $ENDCMP
@@ -96,6 +108,18 @@ $ENDCMP
 #
 $CMP TL074
 D Quad operational amplifier, DIP-14
+$ENDCMP
+#
+$CMP ZPYxx
+D 1300mW Zener Diode, DO-41
+K zener diode
+F http://www.vishay.com/docs/85790/zpy3v9.pdf
+$ENDCMP
+#
+$CMP ZYxxx
+D 2000mW Zener Diode, DO-41
+K zener diode
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/zy1
 $ENDCMP
 #
 #End Doc Library
