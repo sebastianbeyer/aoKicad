@@ -70,6 +70,48 @@ $CMP LM13700
 D Dual OTA, DIP-16
 $ENDCMP
 #
+$CMP LM4040DIZ-10.0
+D 10.0V Precision Micropower Shunt Voltage Reference, TO-92
+K diode device voltage reference shunt
+F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
+$ENDCMP
+#
+$CMP LM4040LP-10
+D 10.00V Precision Micropower Shunt Voltage Reference, TO-92
+K diode device voltage reference shunt
+F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
+$ENDCMP
+#
+$CMP LM4040LP-2.5
+D 2.500V Precision Micropower Shunt Voltage Reference, TO-92
+K diode device voltage reference shunt
+F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
+$ENDCMP
+#
+$CMP LM4040LP-3
+D 3.000V Precision Micropower Shunt Voltage Reference, TO-92
+K diode device voltage reference shunt
+F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
+$ENDCMP
+#
+$CMP LM4040LP-4.1
+D 4.096V Precision Micropower Shunt Voltage Reference, TO-92
+K diode device voltage reference shunt
+F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
+$ENDCMP
+#
+$CMP LM4040LP-5
+D 5.000V Precision Micropower Shunt Voltage Reference, TO-92
+K diode device voltage reference shunt
+F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
+$ENDCMP
+#
+$CMP LM4040LP-8.2
+D 8.192V Precision Micropower Shunt Voltage Reference, TO-92
+K diode device voltage reference shunt
+F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
+$ENDCMP
+#
 $CMP OLED_128X64
 D 128 x 64 OLED module, I2C
 $ENDCMP
