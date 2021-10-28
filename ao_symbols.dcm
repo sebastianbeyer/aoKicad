@@ -50,6 +50,10 @@ $CMP 3_pin_Molex_header
 D KK254 Molex header
 $ENDCMP
 #
+$CMP AS3340
+D VCO
+$ENDCMP
+#
 $CMP AudioJack2
 D Audio Jack, 2 Poles (Mono / TS)
 K audio jack receptacle mono phone headphone TS connector
@@ -76,8 +80,16 @@ $CMP CP
 D Polarized capacitor
 $ENDCMP
 #
+$CMP Graphic
+D Graphic
+$ENDCMP
+#
 $CMP LM13700
 D Dual OTA, DIP-16
+$ENDCMP
+#
+$CMP LM3900N
+D Quad Norton op amp
 $ENDCMP
 #
 $CMP LM4040DIZ-10.0
@@ -122,8 +134,16 @@ K diode device voltage reference shunt
 F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
 $ENDCMP
 #
+$CMP MountingHole
+D Mounting hole
+$ENDCMP
+#
 $CMP OLED_128X64
 D 128 x 64 OLED module, I2C
+$ENDCMP
+#
+$CMP R
+D Resistor
 $ENDCMP
 #
 $CMP R_POT
@@ -134,6 +154,10 @@ $ENDCMP
 #
 $CMP R_SLIDE_POT
 D 60 mm slide potentiometer
+$ENDCMP
+#
+$CMP SW_3PDT_x3
+D 3PDT switch
 $ENDCMP
 #
 $CMP SW_Push
@@ -152,6 +176,10 @@ $CMP SW_SPST
 D Single Pole Single Throw (SPST) switch
 K switch lever
 F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x03
+D Screw terminal
 $ENDCMP
 #
 $CMP Synth_power_2x5
@@ -174,6 +202,10 @@ $CMP TL074
 D Quad operational amplifier, DIP-14
 $ENDCMP
 #
+$CMP Vactrol
+D Vactrol
+$ENDCMP
+#
 $CMP ZPYxx
 D 1300mW Zener Diode, DO-41
 K zener diode
@@ -184,6 +216,10 @@ $CMP ZYxxx
 D 2000mW Zener Diode, DO-41
 K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/zy1
+$ENDCMP
+#
+$CMP ao_symbols_OLED_128X64
+D OLED display
 $ENDCMP
 #
 #End Doc Library
