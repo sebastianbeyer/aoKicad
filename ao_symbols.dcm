@@ -5,6 +5,11 @@ D Power symbol creates a global label with name "+12V"
 K power-flag
 $ENDCMP
 #
+$CMP +5V_1
+D Power symbol creates a global label with name "+5V_1"
+K power-flag
+$ENDCMP
+#
 $CMP -12V_1
 D Power symbol creates a global label with name "-12V"
 K power-flag
@@ -54,6 +59,12 @@ $CMP AS3340
 D VCO
 $ENDCMP
 #
+$CMP Arduino_Nano_v3.x
+D Arduino Nano v3.x
+K Arduino nano microcontroller module USB
+F http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+$ENDCMP
+#
 $CMP AudioJack2
 D Audio Jack, 2 Poles (Mono / TS)
 K audio jack receptacle mono phone headphone TS connector
@@ -82,6 +93,24 @@ $ENDCMP
 #
 $CMP Graphic
 D Graphic
+$ENDCMP
+#
+$CMP L78L05_TO92
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf
+$ENDCMP
+#
+$CMP LED_green
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_red
+D Light emitting diode
+K LED diode
+F ~
 $ENDCMP
 #
 $CMP LM13700
@@ -161,6 +190,18 @@ D 3PDT switch
 $ENDCMP
 #
 $CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_black
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_red
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
 F ~
