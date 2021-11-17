@@ -83,6 +83,10 @@ K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
+$CMP Board
+D Board marker annotation for KiKit
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 $ENDCMP
@@ -178,6 +182,12 @@ $ENDCMP
 $CMP R_POT
 D Potentiometer
 K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_TRIM_3296W
+D Trim-potentiometer
+K resistor variable trimpot trimmer
 F ~
 $ENDCMP
 #
