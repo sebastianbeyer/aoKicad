@@ -253,6 +253,12 @@ $CMP TL074
 D Quad operational amplifier, DIP-14
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
 $CMP Vactrol
 D Vactrol
 $ENDCMP
