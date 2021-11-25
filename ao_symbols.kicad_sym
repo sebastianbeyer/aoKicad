@@ -2365,7 +2365,24 @@
     (property "ki_fp_filters" "Potentiometer*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "R_POT_0_0"
+      (text "CW" (at 3.81 -2.286 0)
+        (effects (font (size 0.762 0.762)))
+      )
+    )
     (symbol "R_POT_0_1"
+      (rectangle (start -1.016 2.54) (end 1.016 -2.54)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -3.302)
+          (xy 2.032 -1.27)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy 2.54 0)
@@ -2376,21 +2393,26 @@
       )
       (polyline
         (pts
+          (xy 2.54 -1.778)
+          (xy 2.032 -1.27)
+          (xy 1.524 -1.778)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy 1.143 0)
-          (xy 2.286 0.508)
           (xy 2.286 -0.508)
+          (xy 2.286 0.508)
           (xy 1.143 0)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (rectangle (start 1.016 2.54) (end -1.016 -2.54)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
     )
     (symbol "R_POT_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
+      (pin passive line (at 0 -3.81 90) (length 1.27)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -2398,7 +2420,7 @@
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
+      (pin passive line (at 0 3.81 270) (length 1.27)
         (name "3" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
