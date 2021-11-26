@@ -2,23 +2,40 @@
 
 KiCad symbol and footprint libraries I use all the time:
 
-## ao_symbols.lib
+## ao_symbols.kicad_sym
 
 Symbols include (among others):
 
-* 1N4148, 1N5817, 2N3904, TL07x, etc. with my preferred footprints (from ao_tht) and added fields including Vendor, SKU
-* C, CP, R with ao_tht footprints
-* Euro/Kosmo power headers (versions with power pins and all passive)
-* Vactrol
+* **+12V_1, +5V_1, -12V_1** - Alternate power symbols for second board
+* **2_pin_Molex_connector, 2_pin_Molex_header, 3_pin_Molex_connector, 3_pin_Molex_header** - Connectors identified as Molex
+* **AS3340** - Alfa VCO chip
+* **Board** - Board marker for KiKit utility
+* **Graphic** - Graphics for PCB
+* **LED_green, LED_red** - LEDs labeled for color
+* **OLED_128X64** - OLED display
+* **R_POT** Potentiometer symbol modified to include arrow and "CW" (clockwise) indicator (see note below)
+* **SW_Push_black, SW_Push_red** - Push buttons labeled for color
+* **Synth_power_2x5** - Euro/Kosmo power connector with power output pins
+* **Synth_power_2x5_passive** - Euro/Kosmo power connector with all passive pins
+* **Vactrol** - Resistive optocoupler for synth circuits
+
+In addition to these there are numerous symbols that more or less replicate standard ones, but with my preferred footprints (from ao_tht) and added fields including Vendor and SKU.
+
+Note regarding R_POT: This shows an arrow pointing in the pin 1 to pin 3 direction, labeled CW. I believe all the horizontal board mount pots in the KiCad Potentiometer_THT footprints library have pin 1 CCW and pin 3 CW. However, inexplicably, most of the vertical pots in the same library have pin 1 CW and pin 3 CCW. There are only a few exceptions including Potentiometer_Alpha_RD901F-40-00D_Single_Vertical, a version of which is in ao_tht.pretty. That library also has Potentiometer_Alpha_16mm_Single_Vertical, which also has pin 1 CCW. These, and slight variants, are the only pot footprints I use. Using others with the R_POT symbol from ao_symbols could lead to mistakes and confusion. 
+
+This is a KiCad 6 version symbol library. The repo also includes a KiCad 5 library, ao_symbols.lib, with most of the same symbols. However, additions and updates are now being made only to ao_symbols.kicad_sym, and ao_symbols.lib may be removed in a future release.
 
 ## ao_tht.pretty
 
 Footprints include many common THT packages with revised silkscreen (both reference and value in most cases). Also:
 
+* Board_Marker for KiKit utility
 * CC0, OSHW, and Analog Output logos
 * DIN5 board mount
 * DPDT and SPDT toggle switches
-* Kosmo style 1/4" audio jack
+* 17x17 mm heat sink (for Tayda heat sink)
+* 1/4" audio jacks, including two variants of the commonly used vertical one (with round or oval holes) and a horizontal one matching ones sold by Tayda
+* Euro/Kosmo 10-pin shrouded power header, with ±12 V and Red Stripe on silkscreen
 * Alpha type rotary switch
 * Hand soldering SOT-23 (yes, I know the library says THT)
 * Some terminal blocks I use
