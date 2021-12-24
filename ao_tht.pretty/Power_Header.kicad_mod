@@ -76,7 +76,7 @@
   (pad "8" thru_hole oval (at 2.54 7.62) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask) (tstamp 3f36ae2b-271c-4042-baa2-71f36dd4a92c))
   (pad "9" thru_hole oval (at 0 10.16) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask) (tstamp 0737a056-888e-4abf-8e90-747fcb02ac5b))
   (pad "10" thru_hole oval (at 2.54 10.16) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask) (tstamp 5a81c55e-ac9f-41e3-b747-46a9bd8d0814))
-  (model "${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl"
+  (model "${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/IDC-Header_2x05_P2.54mm_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -22,7 +22,7 @@
   (fp_line (start 8.65 8.65) (end -8.65 8.65) (layer F.CrtYd) (width 0.05))
   (fp_line (start 8.35 -8.35) (end 8.35 8.35) (layer F.Fab) (width 0.1))
   (fp_line (start 8.5 8.5) (end -8.5 8.5) (layer F.SilkS) (width 0.15))
-  (model ${KISYS3DMOD}/Heatsink.3dshapes/Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35.wrl
+  (model ${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
