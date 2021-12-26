@@ -23,7 +23,7 @@ In addition to these there are numerous symbols that more or less replicate stan
 
 Note regarding R_POT: This shows an arrow pointing in the pin 1 to pin 3 direction, labeled CW. I believe all the horizontal board mount pots in the KiCad Potentiometer_THT footprints library have pin 1 CCW and pin 3 CW. However, inexplicably, most of the vertical pots in the same library have pin 1 CW and pin 3 CCW. There are only a few exceptions including Potentiometer_Alpha_RD901F-40-00D_Single_Vertical, a version of which is in ao_tht.pretty. That library also has Potentiometer_Alpha_16mm_Single_Vertical, which also has pin 1 CCW. These, and slight variants, are the only pot footprints I use. Using others with the R_POT symbol from ao_symbols could lead to mistakes and confusion. 
 
-This is a KiCad 6 version symbol library. The repo also includes a KiCad 5 library, ao_symbols.lib, with most of the same symbols. However, additions and updates are now being made only to ao_symbols.kicad_sym, and ao_symbols.lib may be removed in a future release.
+This is a KiCad 6 version symbol library. If you need a KiCad 5 library you must use release 1.0.
 
 ## ao_tht.pretty
 
