@@ -40,4 +40,6 @@ Footprints include many common THT packages with revised silkscreen (both refere
 * Hand soldering SOT-23 (yes, I know the library says THT)
 * Some terminal blocks I use
 
+The footprints expect their 3D models to be found under `${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/`. `KICAD_USER_LIBRARY` is not a standard KiCad environment variable; you can define it at **Preferences >> Configure paths...** to be the path to the directory where you put aoKicad. (Or if you have it defined already, that's probably a good place to put aoKicad.)
+
 Many of these symbols and footprints are based on versions from the KiCad distribution. Some are based on ones collected from other sources — I haven't kept good track of where they came from. If any are covered by licenses not compatible with CC0 please let me know.
