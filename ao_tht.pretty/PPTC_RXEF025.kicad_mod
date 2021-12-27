@@ -27,7 +27,7 @@
   )
   (pad 1 thru_hole circle (at -2.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/C_Disc_D7.5mm_W5.0mm_P5.00mm.wrl
+  (model ${KICAD_AOKICAD}/ao_tht_3d/C_Disc_D7.5mm_W5.0mm_P5.00mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -51,7 +51,7 @@
   (pad T thru_hole circle (at 0 0) (size 3 3) (drill 1.6) (layers *.Cu *.Mask))
   (pad S thru_hole circle (at 12.6 0) (size 3 3) (drill 1.6) (layers *.Cu *.Mask))
   (pad R thru_hole circle (at 6.3 0) (size 3 3) (drill 1.6) (layers *.Cu *.Mask))
-  (model "${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/User Library-NMJ6HCD2.STEP"
+  (model "${KICAD_AOKICAD}/ao_tht_3d/User Library-NMJ6HCD2.STEP"
     (offset (xyz 16.5 -8 8))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

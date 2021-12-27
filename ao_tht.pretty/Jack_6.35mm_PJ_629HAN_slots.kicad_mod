@@ -34,7 +34,7 @@
   (pad "S" thru_hole rect (at 4.74 4.74 45) (size 4.500001 2.500001) (drill oval 2.7 1) (layers *.Cu *.Mask) (tstamp c6e547a7-d35f-4a95-a709-66c3a116c133))
   (pad "T" thru_hole oval (at -6.4 0.5) (size 2.5 4.5) (drill oval 1 2.7) (layers *.Cu *.Mask) (tstamp acd80a83-e98c-4920-b636-66159f0a62a5))
   (pad "TN" thru_hole oval (at -2.5 6.4) (size 4.5 2.5) (drill oval 2.7 1) (layers *.Cu *.Mask) (tstamp 71099435-18c0-4848-b321-89db93f8c507))
-  (model "${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/User Library-jack-4.STEP"
+  (model "${KICAD_AOKICAD}/ao_tht_3d/User Library-jack-4.STEP"
     (offset (xyz 0 0 23))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -36,7 +36,7 @@
   (pad 3 thru_hole circle (at 0 5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 7.5 7.3 90) (size 3.24 3.24) (drill 1.8) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 7.5 -2.3 90) (size 3.24 3.24) (drill 1.8) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/ALPHA-RD901F-40.step
+  (model ${KICAD_AOKICAD}/ao_tht_3d/ALPHA-RD901F-40.step
     (offset (xyz 7.35 -2.5 -0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

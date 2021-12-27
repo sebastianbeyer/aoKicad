@@ -30,7 +30,7 @@
   (pad R thru_hole circle (at 0.5 -6.4) (size 4.500001 4.500001) (drill 2.7) (layers *.Cu *.Mask))
   (pad TN thru_hole circle (at -2.5 6.4) (size 4.5 4.5) (drill 2.7) (layers *.Cu *.Mask))
   (pad RN thru_hole circle (at 6.4 -2.5) (size 4.500001 4.500001) (drill 2.7) (layers *.Cu *.Mask))
-  (model "${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/User Library-jack-4.STEP"
+  (model "${KICAD_AOKICAD}/ao_tht_3d/User Library-jack-4.STEP"
     (offset (xyz 0 0 23))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

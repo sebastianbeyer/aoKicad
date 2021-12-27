@@ -55,7 +55,7 @@
   (pad 1 thru_hole rect (at -5 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/TerminalBlock_RND_205-00277_1x03_P5.00mm_Vertical.wrl
+  (model ${KICAD_AOKICAD}/ao_tht_3d/TerminalBlock_RND_205-00277_1x03_P5.00mm_Vertical.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -18,7 +18,7 @@
   (pad 4 thru_hole circle (at -5 2.5) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at -5 -10) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at 5 -10) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask))
-  (model "${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/User Library-DIN-5.STEP"
+  (model "${KICAD_AOKICAD}/ao_tht_3d/User Library-DIN-5.STEP"
     (offset (xyz -1.57 -6.5 9.199999999999999))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))
