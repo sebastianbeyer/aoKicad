@@ -32,7 +32,7 @@
   (fp_line (start -0.25 0.8) (end 2.75 0.8) (layer "F.Fab") (width 0.1) (tstamp f6ee98b5-4773-4eeb-a825-33c1705abace))
   (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp e68c5170-03c3-4a20-abd0-ad610c43d035))
   (pad "2" thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 92e8f8c3-0985-4c0d-8e38-92cbbf365409))
-  (model "${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/C_Disc_D3.0mm_W1.6mm_P2.50mm.wrl"
+  (model "${KICAD_AOKICAD}/ao_tht_3d/C_Disc_D3.0mm_W1.6mm_P2.50mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

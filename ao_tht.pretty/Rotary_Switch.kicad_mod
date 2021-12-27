@@ -30,7 +30,7 @@
   (pad 3 thru_hole circle (at -10.72388 2.87528) (size 3.0988 3.0988) (drill 1.50114) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -7.85114 7.85114) (size 3.0988 3.0988) (drill 1.50114) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.87528 10.72388) (size 3.0988 3.0988) (drill 1.50114) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_LIBRARY}/aoKicad/ao_tht_3d/RWS_26_rotary_switch.STEP
+  (model ${KICAD_AOKICAD}/ao_tht_3d/RWS_26_rotary_switch.STEP
     (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 135))
